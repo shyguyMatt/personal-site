@@ -1,0 +1,63 @@
+body {
+  background-color: #36366D;
+  color: black;
+  font-family: Verdana;
+  margin: 0px;
+  background-image: url("background_tile.png");
+  background-repeat: repeat;
+}
+
+li a {
+  color: white;
+  list-style-type: none;
+}
+
+h1 {
+  margin: 0px;
+}
+
+#header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#body-content {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+#left-content {
+  width: 20%;
+  height: auto;
+}
+
+#main {
+  width: 60%;
+  height: 50vh;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#right-content {
+  width: 20%;
+  height: auto;
+}
+
+#footer {
+  display: flex;
+  width: 100%;  
+  height: 200px;
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
